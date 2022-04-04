@@ -1,0 +1,30 @@
+span {
+ color: red;
+}
+
+.flex1 {
+ left: 0;
+ margin-left: 50px;
+
+}
+
+.flex2 {
+ right: 0;
+ margin : 50px 0 30px 0 ;
+
+}
+
+.form {
+ position: fixed;
+ height: 100%;
+ width: 50%;
+}
+label{
+ background-color: rgba(55, 58, 243, 0.986);
+ color: rgb(179, 255, 0);
+}
+input,select{
+ background-color: yellow;
+ color:blue;
+ 
+}

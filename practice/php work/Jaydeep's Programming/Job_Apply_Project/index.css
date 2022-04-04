@@ -1,0 +1,312 @@
+
+*{
+  margin: 0;
+   padding: 0;
+   text-decoration: none;
+   font-family: cursive;
+  }
+  body{
+      background-color: rgb(29, 58, 145);
+
+ }
+.image{
+  background-image: url(gh.jpeg);
+ background-position: center;
+   background-repeat: no-repeat;
+   background-size: 1600px;
+ position: center;
+ padding: 120px ;
+  
+}
+ .apply{
+   width: 800px;
+   text-align: center;
+   margin: auto;
+   background-color: rgb(0, 0, 0,0.9);
+   /* color: rgb(255, 255, 255); */
+   padding: 10px 0px 10px 0px;
+   border-radius: 15px  15px  0 0  ;
+   margin-top:10px ;
+ 
+  }
+  .main{
+    margin: auto;
+    width: 800px;
+    background-color: rgb(0, 0, 0,0.6);
+    border-radius:   0 0  15px  15px ;
+    
+}
+.form-div{
+  padding: 10px;
+}
+ #name{
+   width: 100px;
+   height: 100px;
+
+ } 
+ .name{
+   margin-left: 25px ;
+   margin-top: 30px;
+   /* color: white; */
+   font-size: 18px;
+   font-weight: 700;
+   
+   
+  } 
+  #firstname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;  
+    padding: 0 22px ;
+    font-size: 16px ;
+    outline: none;
+  }
+ #lastname{
+  position: relative;
+  left: 490px;
+  top: -103px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+   
+  outline: none;
+
+}
+.firstlabel{
+  position: relative;
+  /* color: white; */
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 203px;
+  top: -33px;
+}
+.lastlabel{
+  position: relative;
+  /* color: white; */
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 493px;
+  top: -99px;
+
+}
+ 
+#email{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  outline: none;
+}
+ 
+#code{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  width: 45px;
+  line-height: 40px;
+  border-radius: 6px;  
+  padding: 0 22px ;
+  font-size: 16px ;
+  outline: none;
+}
+#number{
+  position: relative;
+  left: 220px;
+  top: -37px;
+  width: 300px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+   
+  outline: none;
+ 
+
+}
+.area-code{
+  position: relative;
+  /* color: white; */
+  text-transform: capitalize;
+  
+  font-size: 14px;
+  left: 108px;
+  top: -5px;
+}
+.phone-number{
+  position: relative;
+  /* color: white; */
+  text-transform: capitalize;
+  font-size: 14px;
+  left: -130px;
+  top: -5px;
+
+}
+.option{
+  position: relative;
+  left: 200px;
+  top: -37px;
+ height: 40px;
+  line-height: 40px;
+  width: 532px;
+  padding: 0 22px;
+  font-size: 16px;
+  outline: none;
+  
+
+} 
+ .employ{
+   margin-left: 270px;
+   /* color: white; */
+   font-size: 25px;
+ }
+.radio1{
+  display: inline-block;
+  padding-right: 70px;
+  font-size: 23px;
+  margin-left: 270px;
+  margin-top: 15px;
+  /* color: white; */
+}
+.radio2{
+  display: inline-block;
+  padding-right: 70px;
+  font-size: 23px;
+   
+  margin-top: 15px;
+  /* color: white; */
+}
+
+.radio1  input{
+  width: 25px;
+  height: 18px;
+   cursor: pointer;
+   outline: none;
+   
+  }
+.radio2  input{
+  width: 25px;
+  height: 18px;
+   cursor: pointer;
+   outline: none;
+   
+  }
+  #btn-btn{
+    background-color: rgb(42, 25, 187);
+    display: block;
+    margin: 20px 0 0 300px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(76, 174, 255) ;
+    padding: 5px 40px;
+    outline: none;
+    /* color: blue; */
+    cursor: pointer;
+    color: azure;
+     
+  }
+  #btn{
+    background-color: rgb(42, 25, 187);
+    display: block;
+    margin: 20px 0 0 276px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(76, 174, 255) ;
+    padding: 5px 40px;
+    outline: none;
+    /* color: blue; */
+    cursor: pointer;
+    color: azure;
+     
+  }
+ input{
+   color: blue;
+ }
+  .error{
+    margin:  0 0 0 26%  ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+nav{
+   
+   height:60px;
+   
+   
+ }
+ nav ul{
+   float: right;
+   margin-right: 20px;
+  }
+ nav ul li{
+   display: inline-block;
+   line-height: 5px;
+   margin: 18px 25px 10px;
+ }
+ nav ul li a{
+   color: rgb(255, 255, 255);
+   font-size: 27px;
+  
+   text-transform: capitalize;
+    
+   
+ }
+ nav ul li a:hover{
+     color : rgb(160, 255, 72);
+      text-decoration : 20px;
+   transition:all 1s;
+    
+  
+   
+ }
+   
+  nav img{
+    position: absolute;
+    width: 97px;
+    top: 12px;
+     left: 80px;
+ 
+  }
+   
+  

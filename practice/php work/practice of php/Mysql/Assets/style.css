@@ -1,0 +1,27 @@
+input{
+    display: flex;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+input[type="button"]{
+     margin:  15px 0 0 0 ;
+  
+     cursor: pointer;
+}
+
+form{
+
+  height: auto;
+  width: 100%;
+
+}  
+.container{
+  background-color: violet;
+  width: max-content;
+  padding:20px;
+  margin: auto;
+}
+   
+ 
+ 

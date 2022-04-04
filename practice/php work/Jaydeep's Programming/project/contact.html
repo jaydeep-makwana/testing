@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+        <script>
+            function check()
+            {
+                name=document.form1.name.value;
+                if(name.length == 0)
+                {
+                    alert("please enter your name")
+                }
+                email=document.form1.email.value;
+                emailexp=/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+                {
+                    if(email.match(emailexp))
+                    {}
+                    else{
+                        alert("Please enter your correct Email Id")
+                    }
+                }
+            }
+        </script>
+
+</head>
+<body>
+    <!--navigation-->
+    <nav>
+        <div class="logo"><span style="color:rgb(19,18,18);">Surat</span> No#1</div>
+        <ul>
+            <li><a href="new.html">HOME</a></li>
+            <li><a href="courses.html">COURSES</a>
+               <!--- <ul>
+                    <li><a href="#">SHORT TERM</a>
+                        <ul>
+                            <li><a href="#">IT for KIDS</a></li>
+                            <li><a href="#">CCC</a></li>
+                            <li><a href="#">TALLY</a></li>
+                            <li><a href="#">DTP</a></li>
+                            <li><a href="#">C language</a></li>
+                            <li><a href="#">C++</a></li>
+                            <li><a href="#">ASP.net</a></li>
+                            <li><a href="#">VB.net</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">LONG TERM</a>
+                        <ul>
+                            <li><a href="#">DCA</a></li>
+                            <li><a href="#">DIT</a></li>
+                            <li><a href="#">PGDCA</a></li>
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">CCAP</a></li>
+                            <li><a href="#">AUTO CAD</a></li>
+                            <li><a href="#">ANDROID</a></li>
+                            <li><a href="#">WEBDESIGN & DEVELOP</a></li>
+                        </ul>
+                    
+                    </li>
+                </ul>-->
+            </li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="stud.html">STUDENTS CORNER</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </nav>
+<!--image-->  
+<div class="size">
+<div class="a">
+    <div class="b">
+        <span>Contact Us</span>
+    </div>
+</div>
+</div>
+<!--form-->
+<div class="center">
+    <div class="flex-container">
+        <div>
+        <form name="form1" onsubmit="return check()"> 
+            <h2>Want us to contact you</h2>
+            <input type="text" name="name" placeholder="Name"><br>
+            <input type="text" name="email" placeholder="Email id"><br>
+            <input type="message" name="Message" placeholder="Message"><br>
+            <input type="button" value="Submit" onclick="check()">
+        </form>
+        </div>
+        <div >
+            <h1>Contact Us</h1>
+            <p><i class="fas fa-map-marker-alt"></i>60,ishwarkrupa society,section 3, 1st floor,opp Archana Vidhya Bhavan
+                                                    ,Lumbe Hanuman Road, Surat-395006. </p>
+            <p><i class="fab fa-whatsapp-square"></i>+91 8128166631</p>
+            <p><i class="fas fa-phone-alt"></i>+91 8128166631</p>
+            <p><i class="fas fa-envelope-open-text"></i>hirenunadkat99@gmail.com</p>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

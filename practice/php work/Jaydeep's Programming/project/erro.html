@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            margin:30px;
+        }
+        input[type=text]{
+            width:800px;
+            margin-top:10px;
+        }
+    
+
+    </style>
+   <!--- <script>
+        function check1()
+        {
+             x= documnet.form.name.value;
+             if(x.length == 0){
+                 alert("enter your name");
+             }
+             else{}
+             y=document.form.email.value;
+             exp=/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+])\.([a-zA-Z]{2,5})$/;
+             if(y.match(exp))
+             {}
+             else{
+                 alert("enter valid email id");
+             }
+             z=documnet.form.mob.value;
+             mo=/^[0-9]$/
+             if(z.match(mo)){
+
+             }
+             else{
+                 alert("valid moblie no");
+             }
+        }
+    </script>-->
+  
+</head>
+<body>
+    <script type="text/javascript">
+        function check1()
+        {
+             x= document.form.name.value;
+             if(x.length == 0){
+                 alert("enter your name");
+             }
+             else{}
+             y=document.form.email.value;
+             exp=/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+])\.([a-zA-Z]{2,5})$/;
+             if(y.match(exp))
+             {}
+             else{
+                 alert("enter valid email id");
+             }
+             z=document.form.mob.value;
+             mo=/^[0-9]$/;
+             if(z.match(mo)){
+
+             }
+             else{
+                 alert("valid moblie no");
+             }
+        }
+    </script>
+     
+        <form name="form">
+            Name:
+            <input type=text name="name" ><br>
+
+            email id:
+            <input type="email" name="email"><br>
+            
+            Ph no:
+            <input type="text"  name="mob"><br>        
+        
+            <input type="button"  value="submit" onclick="check1()">
+        </form>
+</body>
+</html>
