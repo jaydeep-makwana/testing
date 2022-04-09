@@ -1,0 +1,64 @@
+-> What is OOP
+
+- relesed from PHP 5.
+- OOP stands fir Object-Oriented Programming.
+- OOP is faster and easier to execute.
+- OOP provides a clear structure of programs.
+- OOP helps to keep the PHP code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug.
+- OOP makes it possible to create full reusable applications with less code and shorter development time.
+
+Tip: The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code. You should extract out the codes that are common for the application, and place them at a single place and reuse them instead of repeating it.
+
+-> What is Class 
+
+ - A Class is defined by Class keyword,followed  by the name of class and a pair of curly  braces { }.
+ - All its properties and methods go inside the curly braces.
+ - Classes are blueprints of object.
+
+ 
+-> Object 
+
+ - class are nothing without OBJECTS.
+ - Object of a class is created using the new keyword.
+ - We can create multiple objects from a  class,Each object has all the properties and methods defined in the class, but they will have different property values.
+ 
+    
+-> $this keyword 
+
+- $this keyword refers to current object, and is only available inside methods.
+ 
+
+-> instanceof  
+
+- we can use the Instanceof keyword to check if an object belongs to a spacific class.
+Exp. :- var_dump($apple instanceof Fruit);  
+
+ 
+-> Constructor 
+
+- a constructor allows you to initialize an object's Properties upon creation of the object.
+- if you create a __construct() function ,PHP will automatically call this function when you create an object from a class.
+-  construct function starts with tow underscores(__)!
+- a constructor reduce the amount of code. 
+ 
+
+-> destructor
+
+ - A Destructor is called when the object is destructed or the script is stopped or exited. 
+ - if we create a __destruct() function ,PHP will automatically call this function at the end of the script. 
+ - Destruct function starts with two underscores(__)!
+ 
+
+-> Access Modifiers  
+
+ - Properties and methods can have access modifiers which control where they can be accessed.
+ Public => the property or method can be accessed from everywhere.this is defaul.
+ Protected => the property or method can be accessed within the class and by classes derived from that class.
+ Private => the property and method can ONLY be accessed within the class.
+ 
+
+-> Inheritance 
+
+ - Inheritance means when a class derives from another class.
+ - the child class will inherit all the public and protected properties and methods from the parent calss. In addition, it can have its own properties and methods.
+ - An inherited class defined by using the extends keyword.  
